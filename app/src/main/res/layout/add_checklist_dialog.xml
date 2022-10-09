@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/add_checkList_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Check Item"
+        android:textColorHint="#7e7e7e"
+        android:layout_margin="10dp"
+        android:textColor="#1e1e1e"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/dialog_AddBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:text="Add Check Item"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
